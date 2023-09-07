@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+  <link href="style.css" rel="stylesheet"> 
+    
   <head>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TITLE</title>
@@ -9,58 +12,84 @@
   <body>
     <header> 
       <main>
-        <h1>Vans </h1>
-        <h2>"off the wall"</h2>
+        <h1 id="Titulo1"> Vans </h1>
+        <img id="Logo", src= "https://upload.wikimedia.org/wikipedia/commons/4/4b/Logomarca_da_VANS.png", alt="Foto encabezado",width="50
+        " height="40
+        ">
+        <br />
+        <br />
+        <img src= "https://grimoldimediamanager.grimoldi.com/MediaFiles/Grimoldi/2023/9/1/8774357.gif", alt="Foto encabezado",width="50
+        " height="200">
         <p>
           Vans es una emblemática marca de calzado y ropa nacida en 1966 en California. Con su distintivo diseño "skate" y suelas de waffle, Vans se ha convertido en un ícono cultural. Su estilo único y su conexión con el skate, el surf y la creatividad la han convertido en una elección popular entre jóvenes y amantes de la moda.
+
           <br />
+          <br />
+       
+        <img src= "https://grimoldimediamanager.grimoldi.com/MediaFiles/Grimoldi/2023/6/29/8544626.jpg", alt="Foto portada",width="50" height="200">
+          <br />
+          <br />
+
+       
         
-        </p>
-        <!--<img src="./imagenes/foto1.jpg", alt="propiedades">-->
-        </p>
-        <img src="https://i.ytimg.com/vi/p5n2x0ox47w/maxresdefault.jpg", alt="propiedades",width="300" height="200">
-        <!--<a href="contacto.html" target="_blank"> ir a google<a>-->
-        
-        <h5>"Productos"</h5>
-        <ol start="1" type="1">
-            <li>Zapatillas U AUTENTIC</li>
-            
+        <h2 id="NuestrosProductos" >Nuestros productos</h2>
+        <br />
+        <ol id="Punteo"start="1" type="1">
+          <li >Zapatillas U AUTENTIC</li>
             <img src="https://grimoldimediamanager.grimoldi.com/MediaFiles/Grimoldi/2022/6/16/7508742.jpg", alt="propiedades",width="300" height="200">
+            <input type="checkbox" name="Añadir al carrito" id="">
+            <input type="color" names="Color" id="Color1">
+            <br />
+            <br />
             <li>Zapatillas U AUTENTIC 44 dc </li>
             <img src="https://grimoldimediamanager.grimoldi.com/MediaFiles/Grimoldi/2022/6/16/7508752.jpg", alt="propiedades",width="300" height="200">
+            <input type="checkbox" name="Añadir al carrito" id="">
+
+            <input type="color" names="Color" id="Color2">
+            <br />
+            <br />
             <li>Zapatillas U ERA</li>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRipYzabe5hLUiz7nYQBc4QFB97-DN1UyWtsRBYo2Eb5uk2_ngyYfJfp58_qFSjpjKVqkA&usqp=CAU", alt="propiedades",width="300" height="200">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRipYzabe5hLUiz7nYQBc4QFB97-DN1UyWtsRBYo2Eb5uk2_ngyYfJfp58_qFSjpjKVqkA&usqp=CAU", alt="propiedades",width="300" height="150">
+            <input type="checkbox" name="Añadir al carrito" id="">
+            
+            <input type="color" names="Color" id="Color3">
         </ol>
-        <ul type="none">
-            <li>Carrito</li>
+        <h2 id="Carrito">Carrito</h2>
 
         </ul>
-        <table border="ipx solid black">
+        <table id="Tabla">
           <tr>
-          <th>Encabezado1</th>
-          <th>Encabezado2</th>
+          <th>Producto</th>
+          <th>Color</th>
+          <th>Código</th>
+          <th>Cantidad</th>
           </tr>
 
           <tr>
-            <td>Encabezado1</td>
-            <td>Encabezado2</td>
-            <td></td>
+            <td>Zapatillas U Autentic</td>
+            <td>Azul</td>
+            <td>AA1234</td>
+            <td>2</td>
           </tr>
           <tr>
-          <td></td>
-          <td>Encabezado2</td>
+            <td> Zapatillas U AUTENTIC 44 dc</td>
+            <td>Rojas</td>
+            <td>AB1234</td>
+            <td>1</td>
+
           </tr>
         </table>
-
+        <br />
         <form action="" method="post">
+          <label id="Nombre1", for="Nombre usuario">Nombre: </label>
+          <input id="Nombre2",type="text" name="Nombre usuario" id="" placeholder="Escribe aqui tu mail">
 
-          <label for="Nombre usuario">Nombre: </label>
-          <input type="text" name="Nombre usuario" id="" placeholder="Escribir aca">
-
-          <input  type="range">
+          <label id="Mail1",for="Mail usuario"> Mail: </label>
+          <input id="Mail2",type="email" placeholder="Escribe aquí tu mail">
         </form>
 
-
+        <img src="https://static.vecteezy.com/system/resources/previews/022/101/124/original/whatsapp-logo-transparent-free-png.png", alt="propiedades",width="300", height="150", id="Wpp">
+            
       </main>
     </header>
     <footer></footer>

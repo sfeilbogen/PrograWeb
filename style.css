@@ -1,0 +1,40 @@
+body{
+    background-color:#4e0606 ;}
+
+#Wpp {position: fixed;
+bottom: 0;
+right: 0;
+width: 95px;
+height: 95px;
+}
+#Titulo1,#NuestrosProductos {
+  font-family: "Verdana";
+  color: white;
+  text-align: center;
+}
+#Punteo,#Mail1,#Nombre1,#Carrito {
+  font-family: "Verdana";
+  color: white;
+  font-size: 15px;
+}
+#Mail2,#Nombre2 {
+  font-family: "Verdana";
+  font-size: 15px;
+}
+p {
+  font-family: "Verdana";
+  font-size: 20px;
+  color: white;
+}
+
+#Tabla{
+  border: 2px solid white;
+  color:rgb(31, 10, 10);
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+  font-family: "Verdana";
+  font-size: 12px;
+  background-color: #ebcfcf;
+  
+}

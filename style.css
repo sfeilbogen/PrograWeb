@@ -1,11 +1,30 @@
 body{
     background-color:#4e0606 ;}
 
-#Wpp {position: fixed;
-bottom: 0;
-right: 0;
-width: 95px;
-height: 95px;
+header {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  background-color: whitesmoke;
+  height: 80px; /* Cambia la altura según tus preferencias */
+}
+
+#Logo {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+#Foto1 { 
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+}
+#Menu {
+  font-family: "Verdana";
+  color: white;
+  text-align: right;
 }
 #Titulo1,#NuestrosProductos {
   font-family: "Verdana";

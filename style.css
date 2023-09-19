@@ -2,26 +2,32 @@ body{
     background-color:#4e0606 ;}
 
 header {
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  background-color: whitesmoke;
-  height: 80px; /* Cambia la altura según tus preferencias */
-}
+      position: fixed;
+      background-color: whitesmoke;
+      height: 80px; 
+      width:768px;
+      z-index: 1;
+    }
+    
+
 
 #Logo {
-  position: absolute;
+  /*position: fixed;*/
   top: 8px;
   left: 16px;
   font-size: 18px;
   margin-top: 10px;
+  width:90px;
+  height:40px;
 }
 
-#Foto1 { 
-  width: 100%;
+#Foto1, #Foto2 { 
+  width: 768px;
   height: auto;
-  opacity: 0.3;
+  opacity: 0.8;
 }
 #Menu {
+  position: relative;
   font-family: "Verdana";
   color: white;
   text-align: right;

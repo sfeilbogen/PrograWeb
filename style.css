@@ -1,15 +1,47 @@
+
+@media screen and  (max-width: 767px) {
+  #div1 {
+    width: 100%;
+    margin-top: 100px; 
+  }
+}
+@media screen and (min-width: 768px) {
+  #div1 {
+    width: 70%;
+    margin-top: 100px; 
+   
+  }
+}
+
+#div{
+
+  width: 50%;
+  margin-top: 100; 
+ 
+}
 body{
-    background-color:#4e0606 ;}
+    background-color: whitesmoke ;}
 
 header {
       position: fixed;
-      background-color: whitesmoke;
+      background-color: rgb(221, 231, 248);
       height: 80px; 
       width:768px;
       z-index: 1;
+      top: 0;
     }
     
-
+#Menu {
+  height:40px;
+  width:40px;
+  
+}
+#Wpp{
+  position: fixed;
+  width: 100px;
+  bottom: 0;
+  right: 0;
+}
 
 #Logo {
   /*position: fixed;*/
@@ -20,47 +52,56 @@ header {
   width:90px;
   height:40px;
 }
+#FotoPortada{
+  width: 70%;
+  opacity: 0.9;
+  background-color: whitesmoke;
+}
+#FotoZapas1, #FotoZapas2, #FotoZapas3{
+  width: 180px;
+}
 
 #Foto1, #Foto2 { 
-  width: 768px;
+  width: 100%; 
+  
   height: auto;
   opacity: 0.8;
 }
 #Menu {
   position: relative;
-  font-family: "Verdana";
-  color: white;
+ 
+  color: black;
   text-align: right;
 }
 #Titulo1,#NuestrosProductos {
-  font-family: "Verdana";
-  color: white;
+  font-family: 'HelveticaNeueLTStd-Lt', sans-serif;;
+  color: black;
   text-align: center;
 }
 #Punteo,#Mail1,#Nombre1,#Carrito {
-  font-family: "Verdana";
-  color: white;
+  font-family: 'HelveticaNeueLTStd-Lt', sans-serif;
+  color: black;
   font-size: 15px;
 }
 #Mail2,#Nombre2 {
-  font-family: "Verdana";
+  font-family: 'HelveticaNeueLTStd-Lt', sans-serif;;
   font-size: 15px;
 }
 p {
-  font-family: "Verdana";
+  font-family: 'HelveticaNeueLTStd-Lt', sans-serif;;
   font-size: 20px;
-  color: white;
+  color: black;
 }
 
 #Tabla{
-  border: 2px solid white;
+  border: 2px solid rgb(0, 0, 0);
   color:rgb(31, 10, 10);
   border-collapse: collapse;
   width: 100%;
   text-align: left;
-  font-family: "Verdana";
+  font-family: 'HelveticaNeueLTStd-Lt', sans-serif;;
   font-size: 12px;
-  background-color: #f7e2e2;
+  background-color: #8aca9f;
   
 }
 

@@ -5,28 +5,27 @@
     margin-top: 100px; 
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   #div1 {
-    width: 70%;
+    width: 100%;
     margin-top: 100px; 
    
   }
 }
 
 #div{
-
-  width: 50%;
+  width: 100%;
   margin-top: 100; 
  
 }
 body{
-    background-color: whitesmoke ;}
+    background-color: rgb(238, 221, 245) ;}
 
 header {
       position: fixed;
       background-color: rgb(221, 231, 248);
-      height: 80px; 
-      width:768px;
+      height: 15%; 
+      width:100%;
       z-index: 1;
       top: 0;
     }
@@ -61,11 +60,9 @@ header {
   width: 180px;
 }
 
-#Foto1, #Foto2 { 
-  width: 100%; 
-  
-  height: auto;
-  opacity: 0.8;
+#Foto1,#Foto2 { 
+  height: 30vh;
+  width: 100vh;
 }
 #Menu {
   position: relative;

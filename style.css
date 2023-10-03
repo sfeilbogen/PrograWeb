@@ -9,31 +9,42 @@
   #div1 {
     width: 100%;
     margin-top: 100px; 
-   
   }
 }
 
 #div{
   width: 100%;
-  margin-top: 100; 
- 
+  margin-top: 100;  
 }
+
+
+#header {
+  background-color:  rgb(221, 231, 248) ;
+  color: #000000;
+  width: 100%;
+  font-size: 16px;
+  height: 15%; 
+  position: fixed;
+  z-index: 1;
+  top: 0;
+}
+.navbar-toggler-icon {
+  opacity: 1;
+}
+#navbarNavAltMarkup{
+  opacity: 1;
+}
+
+
+
 body{
     background-color: rgb(238, 221, 245) ;}
 
-header {
-      position: fixed;
-      background-color: rgb(221, 231, 248);
-      height: 15%; 
-      width:100%;
-      z-index: 1;
-      top: 0;
-    }
+
     
 #Menu {
   height:40px;
-  width:40px;
-  
+  width:40px;  
 }
 #Wpp{
   position: fixed;
@@ -45,14 +56,15 @@ header {
 #Logo {
   /*position: fixed;*/
   top: 8px;
-  left: 16px;
-  font-size: 18px;
-  margin-top: 10px;
+  
+  margin-top: 5px;
   width:90px;
   height:40px;
+  position: relatuve;
+  left: 0;
 }
 #FotoPortada{
-  width: 70%;
+  width: 100%;
   opacity: 0.9;
   background-color: whitesmoke;
 }
@@ -61,12 +73,11 @@ header {
 }
 
 #Foto1,#Foto2 { 
-  height: 30vh;
-  width: 100vh;
+  height: 23vh;
+  width: 100%;;
 }
 #Menu {
   position: relative;
- 
   color: black;
   text-align: right;
 }

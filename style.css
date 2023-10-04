@@ -19,26 +19,40 @@
 
 
 #header {
-  background-color:  rgb(221, 231, 248) ;
-  color: #000000;
+  background-color:  rgb(224, 232, 247) ;
   width: 100%;
   font-size: 16px;
   height: 15%; 
   position: fixed;
   z-index: 1;
   top: 0;
+  
 }
-.navbar-toggler-icon {
-  opacity: 1;
+
+.container {
+  position: relative;
 }
-#navbarNavAltMarkup{
-  opacity: 1;
+.center {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+#fotoCtexto { 
+  opacity: 0.6;
 }
 
 
-
+.collapse.navbar-collapse.justify-content-end {
+  background-color: rgb(213,25,32,255); /* Cambia el color de fondo */
+  opacity: 0.95;
+}
+.navbar-nav .nav-link {
+  color: #ffffff; /* Cambia el color del texto de los enlaces en la barra de navegación a rojo */
+}
 body{
-    background-color: rgb(238, 221, 245) ;}
+    background-color: rgb(245, 148, 148)  ;}
 
 
     

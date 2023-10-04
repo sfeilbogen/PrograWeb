@@ -31,16 +31,20 @@
 
 .container {
   position: relative;
+  
 }
 .center {
   position: absolute;
   top: 50%;
   width: 100%;
+  
   text-align: center;
   font-size: 18px;
 }
 #fotoCtexto { 
-  opacity: 0.6;
+  height: auto;
+  opacity: 0.3;
+
 }
 
 

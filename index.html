@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-  <link href="style.css" rel="stylesheet"> 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
   <head>
-
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
+    
+    <link href="style.css" rel="stylesheet"> 
     <title>Vans</title>
     
   </head>
@@ -22,7 +23,7 @@
           <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Skateboarding</a>
+                <a class="nav-link active" aria-current="page" href=#NuestrosProductos>Skateboarding</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Surf</a>
@@ -77,118 +78,86 @@
           </div>
           
           <br />
-          <div class="container">
-            <img id="fotoCtexto" src="https://mmgrim2.azureedge.net/MediaFiles/Grimoldi/2023/6/29/8544648.jpg" alt="Imagen">
-            <div class="center">Centered</div>
-          </div>
+         
 
-
-          <img id="FotoPortada" src= "https://vans-static.nyc3.digitaloceanspaces.com/vans-bmx/2022/09/DAKOTA-BANNER-ENDEMIC-BMX.jpg", alt="Foto portada">
-         <br />
-          <br />
+        
 
        
-        
-        <h2 id="NuestrosProductos" >Nuestros productos</h2>
-        <br />
-
-        <div class="card" style="width: 18rem;">
-          <img src="https://grimoldimediamanager.grimoldi.com/MediaFiles/Grimoldi/2022/6/16/7508742.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Zapatillas U AUTENTIC</h5>
+          <h2 id="NuestrosProductos" >Skateboarding</h2>
+       
+          <div id ="productos" class="container">
+            <div class="card" style="width: 18rem;">
+              <img src="https://grimoldimediamanager.grimoldi.com/MediaFiles/Grimoldi/2022/6/16/7508742.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Zapatillas U AUTENTIC</h5>
+                </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">$ 49.900</li>
+                
+              </ul>
+              
             </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">$ 49.900</li>
-          </ul>
-          <div class="card-body">
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
+        
+            <div class="card" style="width: 18rem;">
+              <img src="https://grimoldimediamanager.grimoldi.com/MediaFiles/Grimoldi/2022/6/16/7508752.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Zapatillas U AUTENTIC 44 dc</h5>
+                </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">$ 49.900</li>
+              </ul>
+              
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRipYzabe5hLUiz7nYQBc4QFB97-DN1UyWtsRBYo2Eb5uk2_ngyYfJfp58_qFSjpjKVqkA&usqp=CAU" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Zapatillas U AUTENTIC 44 dc</h5>
+                </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">$ 49.900</li>
+              </ul>
+              
+            </div>
+          </div>
+
+        
+        <br />
+        <div id="tostada"class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+          <div class="toast-header">
+            <img src="..." class="rounded me-2" alt="...">
+            <strong class="me-auto">Bootstrap</strong>
+            <small>11 mins ago</small>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+          </div>
+          <div class="toast-body">
+            Hello, world! This is a toast message.
           </div>
         </div>
-        <button id="tostada"type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>
-
-          <div class="toast-container position-fixed bottom-0 end-0 p-3">
-            <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-              <div class="toast-header">
-                <img src="..." class="rounded me-2" alt="...">
-                <strong class="me-auto">Bootstrap</strong>
-                <small>11 mins ago</small>
-                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-              </div>
-              <div class="toast-body">
-                Hello, world! This is a toast message.
-              </div>
-            </div>
-          </div>
-          <div id="tostada2" class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
-            <div class="d-flex">
-              <div class="toast-body">
-                Hello, world! This is a toast message.
-              </div>
-              <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
-            </div>
-          </div>
-        <ol id="Punteo"start="1" type="1">
-          <li >Zapatillas U AUTENTIC</li>
-            <img id="FotoZapas1" src="https://grimoldimediamanager.grimoldi.com/MediaFiles/Grimoldi/2022/6/16/7508742.jpg", alt="propiedades">
-            <input type="checkbox" name="Añadir al carrito" id="checkbox1">
-            <input type="color" names="Color" id="Color1">
-            <br />
-            <br />
-            <li>Zapatillas U AUTENTIC 44 dc </li>
-            <img id="FotoZapas2" src="https://grimoldimediamanager.grimoldi.com/MediaFiles/Grimoldi/2022/6/16/7508752.jpg", alt="propiedades">
-            <input type="checkbox" name="Añadir al carrito" id="checkbox2">
-
-            <input type="color" names="Color" id="Color2">
-            <br />
-            <br />
-            <li>Zapatillas U ERA</li>
-            <img id="FotoZapas3"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRipYzabe5hLUiz7nYQBc4QFB97-DN1UyWtsRBYo2Eb5uk2_ngyYfJfp58_qFSjpjKVqkA&usqp=CAU", alt="propiedades">
-            <input type="checkbox" name="Añadir al carrito" id="checkbox3">
-            
-            <input type="color" names="Color" id="Color3">
-        </ol>
-        <img id="Foto2" src= "https://grimoldimediamanager.grimoldi.com/MediaFiles/Grimoldi/2023/6/29/8544626.jpg", alt="Foto portada">
-         
-        <h2 id="Carrito">Carrito</h2>
-
-        </ul>
-        <table id="Tabla">
-          <tr>
-          <th>Producto</th>
-          <th>Color</th>
-          <th>Código</th>
-          <th>Cantidad</th>
-          </tr>
-
-          <tr>
-            <td>Zapatillas U Autentic</td>
-            <td>Azul</td>
-            <td>AA1234</td>
-            <td>2</td>
-          </tr>
-          <tr>
-            <td> Zapatillas U AUTENTIC 44 dc</td>
-            <td>Rojas</td>
-            <td>AB1234</td>
-            <td>1</td>
-
-          </tr>
-        </table>
-        <br />
-        <form action="" method="post">
-          <label id="Nombre1", for="Nombre usuario">Nombre: </label>
-          <input id="Nombre2",type="text" name="Nombre usuario" id="" placeholder="Escribe aqui tu mail">
-
-          <label id="Mail1",for="Mail usuario"> Mail: </label>
-          <input id="Mail2",type="email" placeholder="Escribe aquí tu mail">
-        </form>
+        
 
         <img id="Wpp"src="https://static.vecteezy.com/system/resources/previews/022/101/124/original/whatsapp-logo-transparent-free-png.png", alt="propiedades">
             
       </main>
     
-    <footer></footer>
+    <footer>
+      <form action="" method="post">
+        <label id="Nombre1", for="Nombre usuario">Nombre: </label>
+        <input id="Nombre2",type="text" name="Nombre usuario" id="" placeholder="Escribe aqui tu mail">
+
+        <label id="Mail1",for="Mail usuario"> Mail: </label>
+        <input id="Mail2",type="email" placeholder="Escribe aquí tu mail">
+      </form>
+      <br>
+      <p id= "referencias" > Seguinos en nuestras páginas
+        <br>
+         <a href="https://twitter.com/vansargentina"><img src="https://mmgrim2.azureedge.net/MediaFiles/Grimoldi/2017/8_28/0/31/40/2041912.png" alt="twitter" ></a>
+         <a href="https://www.facebook.com/vans.arg/"><img src="https://mmgrim2.azureedge.net/MediaFiles/Grimoldi/2017/8_28/0/31/40/2041906.png" alt="facebook" ></a>
+         <a href="https://www.youtube.com/user/VansShoes66/videos"><img src="https://mmgrim2.azureedge.net/MediaFiles/Grimoldi/2017/8_28/0/31/40/2041916.png" alt="youtube" ></a>
+         <a href="https://www.instagram.com/vansargentina/"><img src="https://mmgrim2.azureedge.net/MediaFiles/Grimoldi/2022/8/29/7683270.jpg" alt="instagram" ></a>
+    
+
+    </footer>
   </div>
 
   </body>

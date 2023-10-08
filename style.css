@@ -1,23 +1,65 @@
 
 @media screen and  (max-width: 767px) {
-  #div1 {
-    width: 100%;
-    margin-top: 100px; 
-
+  
+  #logos  {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   }
+  #productos, #productos2 {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  }
+  
+  
   
 }
 @media screen and (min-width: 1024px) {
-  #div1 {
-    width: 100%;
-    margin-top: 100px; 
+  
+  #logos {
+    display: flex;
+    
+    
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center;
+
+    
   }
+  #productos ,#productos2 {
+    display: flex;
+    justify-content: space-between; /* Centrar horizontalmente */
+    align-items: center;
+    
+
+  }
+  
+  
 }
 
-#div{
-  width: 100%;
-  margin-top: 100;  
+#social{
+  text-align: center;
+  
 }
+
+
+ #logostodos{
+  
+  width: 150px;
+  
+}
+
+
+#div1{
+  width: 100%;
+  margin-top: 100px;  
+}
+
+
+
 
 #header {
   background-color:  rgb(224, 232, 247) ;
@@ -30,23 +72,8 @@
   
 }
 
-.container {
-  position: relative;
-  
-}
-.center {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  
-  text-align: center;
-  font-size: 18px;
-}
-#fotoCtexto { 
-  height: auto;
-  opacity: 0.3;
-  left: 0;
-}
+
+
 
 
 .collapse.navbar-collapse.justify-content-end {
@@ -59,10 +86,7 @@
 body{
     background-color: rgb(255, 255, 255)  ;}
 
-#productos{
-  display: flex;
-  justify-content: space-between;
-}
+   
     
 #Menu {
   height:40px;
@@ -82,17 +106,17 @@ body{
   margin-top: 5px;
   width:90px;
   height:40px;
-  position: relatuve;
+  position: relative;
   left: 0;
 }
+
+
 #FotoPortada{
   width: 100%;
   opacity: 0.9;
   background-color: whitesmoke;
 }
-#FotoZapas1, #FotoZapas2, #FotoZapas3{
-  width: 180px;
-}
+
 
 #Foto1,#Foto2 { 
   height: 23vh;
@@ -103,13 +127,13 @@ body{
   color: black;
   text-align: right;
 }
-#Titulo1,#NuestrosProductos {
+#Titulo1,#NuestrosProductos,#NuestrosProductos2 {
   font-family: 'HelveticaNeueLTStd-Lt', sans-serif;
   color: black;
   text-align: center;
 }
 
-  #mailVans #Mail2 #Nombre2 {
+#mailVans, #Mail2, #Nombre2 {
   font-family: 'HelveticaNeueLTStd-Lt', sans-serif;
   font-size: 15px;
 }

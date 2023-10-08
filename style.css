@@ -2,7 +2,7 @@
 @media screen and  (max-width: 767px) {
   
   #logos  {
-    display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -15,8 +15,6 @@
   
   }
   
-  
-  
 }
 @media screen and (min-width: 1024px) {
   
@@ -24,14 +22,14 @@
     display: flex;
     
     
-    justify-content: center; /* Centrar horizontalmente */
+    justify-content: center; 
     align-items: center;
 
     
   }
   #productos ,#productos2 {
     display: flex;
-    justify-content: space-between; /* Centrar horizontalmente */
+    justify-content: space-between; 
     align-items: center;
     
 
@@ -41,15 +39,12 @@
 }
 
 #social{
-  text-align: center;
-  
+  text-align: center; 
 }
 
 
  #logostodos{
-  
   width: 150px;
-  
 }
 
 
@@ -57,8 +52,6 @@
   width: 100%;
   margin-top: 100px;  
 }
-
-
 
 
 #header {
@@ -73,15 +66,12 @@
 }
 
 
-
-
-
 .collapse.navbar-collapse.justify-content-end {
-  background-color: rgb(213,25,32,255); /* Cambia el color de fondo */
+  background-color: rgb(213,25,32,255); 
   opacity: 0.95;
 }
 .navbar-nav .nav-link {
-  color: #ffffff; /* Cambia el color del texto de los enlaces en la barra de navegación a rojo */
+  color: #ffffff; 
 }
 body{
     background-color: rgb(255, 255, 255)  ;}
@@ -100,7 +90,6 @@ body{
 }
 
 #Logo {
-  /*position: fixed;*/
   top: 8px;
   
   margin-top: 5px;
@@ -111,29 +100,14 @@ body{
 }
 
 
-#FotoPortada{
-  width: 100%;
-  opacity: 0.9;
-  background-color: whitesmoke;
-}
 
-
-#Foto1,#Foto2 { 
-  height: 23vh;
-  width: 100%;;
-}
-#Menu {
-  position: relative;
-  color: black;
-  text-align: right;
-}
-#Titulo1,#NuestrosProductos,#NuestrosProductos2 {
+#NuestrosProductos,#NuestrosProductos2 {
   font-family: 'HelveticaNeueLTStd-Lt', sans-serif;
   color: black;
   text-align: center;
 }
 
-#mailVans, #Mail2, #Nombre2 {
+#Mail1, #Mail2, #Nombre2,#Nombre1 {
   font-family: 'HelveticaNeueLTStd-Lt', sans-serif;
   font-size: 15px;
 }
@@ -146,21 +120,9 @@ body{
 
 
 footer{
-  
   padding: 15px;
   background-color: rgb(213,25,32,255);
   color: white; 
 
-}
-#Tabla{
-  border: 2px solid rgb(0, 0, 0);
-  color:rgb(31, 10, 10);
-  border-collapse: collapse;
-  width: 100%;
-  text-align: left;
-  font-family: 'HelveticaNeueLTStd-Lt', sans-serif;
-  font-size: 12px;
-  background-color: #8aca9f;
-  
 }
 

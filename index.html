@@ -81,12 +81,12 @@
             <div class="card">
               <img src="https://cdna.lystit.com/520/650/n/photos/vans/4a3d0846/vans-Grey-Skate-Old-Skool-Shoes.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Zapatillas U AUTENTIC</h5>
+                <h5 id="modelo1"class="card-title">Zapatillas U AUTENTIC</h5>
                 </div>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item">$ 49.900</li>
+                <li id="precio1" class="list-group-item">$ 49.900</li>
 
-                <li class="list-group-item"> <button type="button" class="btn btn-primary" onclick=AgregoCarrito(Zapatillas U AUTENTIC,49900)>Agregar al carrito</button></li>
+                <li class="list-group-item"> <button type="button" id="boton" class="btn btn-primary" onclick=AgregoCarrito()>Agregar al carrito</button></li>
                 
               </ul>
             </div>
@@ -94,20 +94,23 @@
             <div class="card">
               <img src="https://www.ibikes.cl/wp-content/uploads/2021/12/608071-800-auto.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Zapatillas U AUTENTIC dc</h5>
+                <h5 id="modelo2" class="card-title">Zapatillas U ULTRARANGE EXO</h5>
                 </div>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item">$ 49.900</li>
+                <li id="precio2"class="list-group-item">$ 35.900</li>
+                <li class="list-group-item"> <button type="button" id="boton" class="btn btn-primary" onclick=AgregoCarrito2()>Agregar al carrito</button></li>
                 
               </ul>
             </div>
             <div class="card">
               <img src="https://http2.mlstatic.com/D_NQ_NP_911678-MLA69389264935_052023-O.webp" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Zapatillas U AUTENTIC dc</h5>
+                <h5 id="modelo3" class="card-title">VANS X QUASI</h5>
                 </div>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item">$ 49.900</li>
+                <li id="precio3" class="list-group-item">$ 40.900</li>
+                <li class="list-group-item"> <button type="button" id="boton" class="btn btn-primary" onclick=AgregoCarrito3()>Agregar al carrito</button></li>
+                
               </ul>
               
             </div>
@@ -182,6 +185,12 @@
         <input id="Mail2",type="email" placeholder="Escribe aquí tu mail">
       </form>
       <br>
+      <div id="carrito">
+        <h2>Carrito de Compras:</h2>
+        <ul id="listaCarrito"></ul>
+      </div>
+
+      
       <p id= "referencias" > Seguinos en nuestras páginas</p>
       <div id ="social">
          <a class="SC" href="https://twitter.com/vansargentina"><img src="https://mmgrim2.azureedge.net/MediaFiles/Grimoldi/2017/8_28/0/31/40/2041912.png" alt="twitter" ></a>

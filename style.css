@@ -28,6 +28,12 @@
   
   
 }
+
+.list-group-item{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
 #logos {
   display: flex;
   justify-content: center; 
@@ -107,7 +113,7 @@ body{
   background-color: rgb(213,25,32,255);
 }
 
-#Mail1, #Mail2, #Nombre2,#Nombre1 {
+#Mail1, #Mail2, #Nombre2,#Nombre1,#carrito {
   font-family: 'HelveticaNeueLTStd-Lt', sans-serif;
   font-size: 15px;
 }

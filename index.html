@@ -8,7 +8,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
     <script src="mi_script.js"></script>
     <link href="style.css" rel="stylesheet"> 
-    <link 
+
+     <link rel="icon" href="https://i.pinimg.com/736x/33/b0/cc/33b0ccc2706f56fb337bd2bc51b3217c.jpg" type="image/x-icon">
+   
     <title>Vans</title>
     
   </head>
@@ -24,10 +26,14 @@
           <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li id="span" class="nav-item">
+                
                 <a class="nav-link active" aria-current="page" href=#NuestrosProductos>Skateboarding</a>
               </li>
               <li id="span" class="nav-item">
                 <a class="nav-link" href=#NuestrosProductos2>Surf</a>
+              </li>
+              <li id="span" class="nav-item">
+                <a class="nav-link" href=#carrito>Tu carrito</a>
               </li>
               <li id="span" class="nav-item">
                 <a class="nav-link" href=#piedepagina>Contactanos</a>
@@ -86,7 +92,7 @@
               <ul class="list-group list-group-flush">
                 <li id="precio1" class="list-group-item">$ 49.900</li>
 
-                <li class="list-group-item"> <button type="button" id="boton" class="btn btn-primary" onclick=AgregoCarrito()>Agregar al carrito</button></li>
+                <li class="list-group-item"> <button type="button" id="boton" class="btn btn-primary" onclick=AgregoCarrito(1)>Agregar al carrito</button></li>
                 
               </ul>
             </div>
@@ -98,7 +104,7 @@
                 </div>
               <ul class="list-group list-group-flush">
                 <li id="precio2"class="list-group-item">$ 35.900</li>
-                <li class="list-group-item"> <button type="button" id="boton" class="btn btn-primary" onclick=AgregoCarrito2()>Agregar al carrito</button></li>
+                <li class="list-group-item"> <button type="button" id="boton" class="btn btn-primary" onclick=AgregoCarrito(2)>Agregar al carrito</button></li>
                 
               </ul>
             </div>
@@ -109,7 +115,7 @@
                 </div>
               <ul class="list-group list-group-flush">
                 <li id="precio3" class="list-group-item">$ 40.900</li>
-                <li class="list-group-item"> <button type="button" id="boton" class="btn btn-primary" onclick=AgregoCarrito3()>Agregar al carrito</button></li>
+                <li class="list-group-item"> <button type="button" id="boton" class="btn btn-primary" onclick=AgregoCarrito(3)>Agregar al carrito</button></li>
                 
               </ul>
               
@@ -125,10 +131,11 @@
             <div class="card">
               <img src="https://www.disasterskateshop.com/40974-home_default/zapatillas-pro-surf-vans-ua-ultrarange-exo-se-oatmeal-marshmallow.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Zapatillas U AUTENTIC</h5>
+                <h5 id="modelo4" class="card-title">Zapatillas Classic 43</h5>
                 </div>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item">$ 49.900</li>
+                <li id="precio4" class="list-group-item">$ 49.900</li>
+                <li class="list-group-item"> <button type="button" id="boton" class="btn btn-primary" onclick=AgregoCarrito(4)>Agregar al carrito</button></li>
                 
               </ul>
               
@@ -137,10 +144,12 @@
             <div class="card">
               <img src="https://www.martimpeberart.com/wp-content/uploads/2022/10/VN0A4UWM02Y-ALT1-510x510.webp" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Zapatillas U AUTENTIC 44 dc</h5>
+                <h5 id="modelo5" class="card-title">Zapatillas Surfer</h5>
                 </div>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item">$ 49.900</li>
+                <li id="precio5" class="list-group-item">$ 40.000</li>
+                <li class="list-group-item"> <button type="button" id="boton" class="btn btn-primary" onclick=AgregoCarrito(5)>Agregar al carrito</button></li>
+                
               </ul>
               
             </div>
@@ -148,10 +157,12 @@
             <div class="card">
               <img src="https://www.vansshop.hu/media/catalog/product/cache/1/thumbnail/300x/040ec09b1e35df139433887a97daa66f/v/a/va4uwmdol_01.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Zapatillas U AUTENTIC 44 dc</h5>
+                <h5 id="modelo6" class="card-title">Zapatillas Classic</h5>
                 </div>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item">$ 49.900</li>
+                <li id="precio6" class="list-group-item">$ 60.000</li>
+                <li class="list-group-item"> <button type="button" id="boton" class="btn btn-primary" onclick=AgregoCarrito(6)>Agregar al carrito</button></li>
+                
               </ul>
               
             </div>
@@ -177,20 +188,30 @@
       </main>
     
     <footer id="piedepagina">
+      
       <form action="" method="post">
         <label id="Nombre1", for="Nombre usuario">Nombre: </label>
-        <input id="Nombre2",type="text" name="Nombre usuario" id="" placeholder="Escribe aqui tu nombre aqui">
+        <input id="Nombre2",type="text" name="Nombre usuario" id="" placeholder="Escribe tu nombre aqui">
 
         <label id="Mail1",for="Mail usuario"> Mail: </label>
         <input id="Mail2",type="email" placeholder="Escribe aquí tu mail">
       </form>
-      <br>
-      <div id="carrito">
-        <h2>Carrito de Compras:</h2>
-        <ul id="listaCarrito"></ul>
-      </div>
 
+      <br>
+
+      <div id ="carrito">
+      <h2 id ="TituloCarrito">Carrito de compras:</h2>
       
+      <table id="tablaCarrito">
+      </table>
+      <p id="totalCarrito">Total: $0.00</p>
+
+      <button class="boton-vaciar" onclick="vaciarCarrito()">Vaciar Carrito</button>
+      </div>
+      <br>
+      
+      
+      <br>
       <p id= "referencias" > Seguinos en nuestras páginas</p>
       <div id ="social">
          <a class="SC" href="https://twitter.com/vansargentina"><img src="https://mmgrim2.azureedge.net/MediaFiles/Grimoldi/2017/8_28/0/31/40/2041912.png" alt="twitter" ></a>
